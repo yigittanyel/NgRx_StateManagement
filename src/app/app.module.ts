@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './NgRxTrial/state/counter.reducer';
 import { MyCounterComponent } from './NgRxTrial/my-counter/my-counter.component';
+import { MyCounterWServiceComponent } from './NgRxTrial/my-counter-w-service/my-counter-w-service.component';
 @NgModule({
   declarations: [
     AppComponent,
-    MyCounterComponent
+    MyCounterComponent,
+    MyCounterWServiceComponent
   ],
   imports: [
     BrowserModule,
