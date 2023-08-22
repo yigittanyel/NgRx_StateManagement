@@ -1,0 +1,15 @@
+
+<div>Current Count: {{ count$ | async }}</div>
+<hr>
+<div>Current Count2: {{ count2 }}</div>
+
+
+<div>
+  <button (click)="increment()">Increment</button>
+
+  <button (click)="decrement()">Decrement</button>
+  <button (click)="decrement2()">Decrement2</button>
+
+  <button (click)="reset()">Reset</button>
+</div>
+
